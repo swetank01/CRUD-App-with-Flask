@@ -17,3 +17,4 @@ we’ll be creating a RESTful Flask application from scratch. Here we’ll maint
 # Project Setup
 virtualenv venv
 pip3 install flask flask-sqlalchemy marshmallow-sqlalchemy
+mkdir src && cd src
