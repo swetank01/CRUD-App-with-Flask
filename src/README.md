@@ -1,4 +1,7 @@
-# Main src
+# Index
+1. main.py (Skeleton) :  Later we’ll add routes, initialize our db object, and configure logging in main.py
+
+# Part-1
 
 - Flask uses the concept of blueprints to make application components and support common patterns across the application. 
 
@@ -8,10 +11,7 @@
 
 - Here we have defined the config, imported create_app, and initialized the application. 
 
+# Part-2
+
 - Next we’ll move the config to a separate directory and specify environment-specific configuration. 
 We’ll create another directory /api inside src and export config, models, and routes from api directory, so now create a directory inside src called api and then create another directory called config inside api.
-
-# Index
- main.py (Skeleton) :  Later we’ll add routes, initialize our db object, and configure logging in main.py
-
- 
