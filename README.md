@@ -20,3 +20,5 @@ we’ll be creating a RESTful Flask application from scratch. Here we’ll maint
 virtualenv venv
 pip3 install flask flask-sqlalchemy marshmallow-sqlalchemy
 mkdir src && cd src
+source env/bin/activate
+pip3 freeze > requirements.txt 
